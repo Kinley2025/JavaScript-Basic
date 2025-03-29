@@ -37,15 +37,51 @@
 // }
 
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
     
-}
+// }
 
-console.log(typeof outTemp);
+// console.log(typeof outTemp);
 
 
 //  Note-JavaScript is that dynamically typed languages are easier to program, but slower, 
 //  which means that variables can hold values of different types during runtime. 
 //  TypeScript is a variation of JavaScript that is statically typed.
 
+
+// ##############################################################################################
+
+// Two types of memory
+
+//    1- Stack (Primitive)
+
+      let myGmail = "kinley2030@gmail.com"
+      let anotherMyGmail = myGmail
+      anotherMyGmail = "Kinley123@gmail.com"
+      console.log(myGmail);
+      console.log(anotherMyGmail);
+      
+      
+
+//    2- Heap (Non-Primitive)
+
+     let myObjectOne = {
+        fullName : "Kinley Wangdi",
+        myAge : 30,
+        from : "Bhutan",
+
+     }
+
+     let myObjectTwo = myObjectOne;
+
+         myObjectTwo.fullName = "Karma Wangmo"
+         console.log(myObjectOne.fullName);
+         console.log(myObjectTwo.fullName);
+         
+         
+
+
+
+     
+     
