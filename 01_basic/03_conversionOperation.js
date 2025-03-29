@@ -37,3 +37,41 @@ console.log(typeof stringNumber);
 
 
 
+// **************** OPERATION ****************
+
+let value = 5
+
+let negValue = -value
+console.log(negValue);
+
+
+let str1 = "Hello"
+let str2 =" Kinley Wangdi"
+
+let str3 =(str1 + str2)
+console.log(str3);
+
+
+// console.log("2" + 2);
+// console.log(2 + "2");
+// console.log("2" + 2 + 2);
+// console.log(2 + 2 + "2");
+
+// console.log((2 + 4) - 6 * 3 / 4);
+
+
+let gameCounter = 200
+
+++gameCounter;
+console.log(gameCounter);
+
+
+
+
+
+
+
+
+
+
+
